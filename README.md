@@ -1,5 +1,7 @@
-# Spring2020CS372CodeReviewPractice
+# Spring2021CS372CodeReviewPractice
 Some code to perform a code review on.
 
 Instructions:
-One person in your group should fork this repository and add the others as collaborators. Then you can (if you wish) practice with the GitHub tools (like commenting) for code review. Or you can just use it as an easy way to look at the files you are reviewing.
+Read the instructions PDF and review the code in this repository.
+
+If you wish to practice with the github code review tools, you will need to have these files as a pull request. To do so, one person in your group should fork this repository and add the others as collaborators. Then they should commit minor changes to the source files (a comment line "added to make pull request" would be sufficient) and create a pull request from that commit. Then the project collaborators will be able to review the new pull request.
