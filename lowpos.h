@@ -26,29 +26,30 @@
 //     FDIter is a forward iterator type.
 //     The value type of FDIter is int.
 // Since this is a template, we define it here, and not in a .cpp file.
-template <typename FDIter>
-int lowPositive(FDIter first, FDIter last)
-{
-    int minval;  // Holds least positive value so far, or zero if none
 
-    // Initialize minval appropriately
-    if (*first > 0)
-        minval = *first;
-    else
-        minval = 0;
+// template <typename FDIter>
+// int lowPositive(FDIter first, FDIter last)
+// {
+//     int minval;  // Holds least positive value so far, or zero if none
 
-    // Go through each item in range, updating minval as needed
-    for (FDIter it = first;
-         it != last;
-         ++it)
-    {
-        if (*it <= 0)  // Zero or negative? Skip it
-            continue;
-        if (*it < minval)  // Positive & below minval? Update minval
-            minval = *it;
-    }
+//     // Initialize minval appropriately
+//     if (*first > 0)
+//         minval = *first;
+//     else
+//         minval = 0;
 
-    // Done; minval is our result
-    return minval;
-}
+//     // Go through each item in range, updating minval as needed
+//     for (FDIter it = first;
+//          it != last;
+//          ++it)
+//     {
+//         if (*it <= 0)  // Zero or negative? Skip it
+//             continue;
+//         if (*it < minval)  // Positive & below minval? Update minval
+//             minval = *it;
+//     }
+
+//     // Done; minval is our result
+//     return minval;
+// }
 
